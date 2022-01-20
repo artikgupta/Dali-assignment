@@ -15,9 +15,10 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
+import './styles/main.css';
 
 // Import root app
-import App from 'containers/App';
+import App from './components/App';
 
 // Import Language Provider
 import LanguageProvider from 'containers/LanguageProvider';
